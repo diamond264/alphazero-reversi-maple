@@ -3,16 +3,7 @@
 Main code from [alpha-zero-general](https://github.com/suragnair/alpha-zero-general).
 Modified the game logic to have 4 blocked blocks in the board.
 
-```Coach.py``` contains the core training loop and ```MCTS.py``` performs the Monte Carlo Tree Search. The parameters for the self-play can be specified in ```main.py```. Additional neural network parameters are in ```othello/{pytorch,keras,tensorflow,chainer}/NNet.py``` (cuda flag, batch size, epochs, learning rate etc.). 
-
-To start training a model for Othello:
-```bash
-python main.py
-```
-Choose your framework and game in ```main.py```.
-
-
-### How to use?
+### How to play?
 
 Now in ```./temp```, there is a pre-trained model which I have trained for 4 hours.
 I guess the whole training time requires about 3 days, so the model for testing now doesn't have ideal strategy for winning the game.
@@ -42,6 +33,16 @@ For example for the board below, you can type (1 1), (1 6), (6 2), (6 6) in orde
 After you input the blocked blocks, it requires you to type who (ai/human) will start the game. Just type one of them.
 
 Then the game starts, by typing the (y x) value for each turn, try to win the ai :)
+
+### How to train?
+
+```Coach.py``` contains the core training loop and ```MCTS.py``` performs the Monte Carlo Tree Search. The parameters for the self-play can be specified in ```main.py```. Additional neural network parameters are in ```othello/{pytorch,keras,tensorflow,chainer}/NNet.py``` (cuda flag, batch size, epochs, learning rate etc.). 
+
+To start training a model for Othello:
+```bash
+python main.py
+```
+Choose your framework and game in ```main.py```.
 
 ### Experiments
 
