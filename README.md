@@ -17,7 +17,7 @@ After starting the game, the console requires you to input 4 blocked blocks.
 The board consists of 8x8 blocks, and to input the intended block you have to input the (y x) coordinate splitted with space, starting from y axis.
 For example for the board below, you can type (1 1), (1 6), (6 2), (6 6) in order without brackets.
 ```
-   0 1 2 3 4 5 6 7 
+   0 1 2 3 4 5 6 7 (x-axis)
 -----------------------
 0 |- - - - - - - - |
 1 |- B - - - - B - |
@@ -28,6 +28,7 @@ For example for the board below, you can type (1 1), (1 6), (6 2), (6 6) in orde
 6 |- - B - - - B - |
 7 |- - - - - - - - |
 -----------------------
+(y-axis)
 ```
 
 After you input the blocked blocks, it requires you to type who (ai/human) will start the game. Just type one of them.
