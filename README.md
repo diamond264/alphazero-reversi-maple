@@ -44,6 +44,8 @@ python main.py
 ```
 Choose your framework and game in ```main.py```.
 
+It will update the model in ```./temp```.
+
 ### Experiments
 
 (Experiment results are from the original code, not the maplestory-reversi.)
