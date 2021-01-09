@@ -18,10 +18,25 @@ Now in ```./temp```, there is a pre-trained model which I have trained for 4 hou
 I guess the whole training time requires about 3 days, so the model for testing now doesn't have ideal strategy for winning the game.
 
 First install all required pip package including pytorch, by ```pip install -r requirements.txt```(python3).
+
 To play game, you can pushc command ```python pit.py```(python3).
 The ```pit.py``` loads the trained model(```best.pth.tar```) located in ```./temp```, and consists the AI enemy.
 
 After starting the game, the console requires you to input 4 blocked blocks.
+```
+   0 1 2 3 4 5 6 7 
+-----------------------
+0 |- - - - - - - - |
+1 |- B - - - - B - |
+2 |- - - - - - - - |
+3 |- - - X O - - - |
+4 |- - - O O O - - |
+5 |- - - - - - - - |
+6 |- - B - - - B - |
+7 |- - - - - - - - |
+-----------------------
+```
+
 
 ### Experiments
 
