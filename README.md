@@ -23,6 +23,8 @@ To play game, you can pushc command ```python pit.py```(python3).
 The ```pit.py``` loads the trained model(```best.pth.tar```) located in ```./temp```, and consists the AI enemy.
 
 After starting the game, the console requires you to input 4 blocked blocks.
+The board consists of 8x8 blocks, and to input the intended block you have to input the (y x) coordinate splitted with space, starting from y axis.
+For example for the board below, you can type (1 1), (1 6), (6 2), (6 6) in order without brackets.
 ```
    0 1 2 3 4 5 6 7 
 -----------------------
@@ -37,6 +39,9 @@ After starting the game, the console requires you to input 4 blocked blocks.
 -----------------------
 ```
 
+After you input the blocked blocks, it requires you to type who (ai/human) will start the game. Just type one of them.
+
+Then the game starts, by typing the (y x) value for each turn, try to win the ai :)
 
 ### Experiments
 
